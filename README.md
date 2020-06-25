@@ -4,7 +4,7 @@ Given the increasing complexity of machine learning models, the need for model e
 
 <p align="center">
   <a href="https://youtu.be/fGafEouuc1Q">
-    <img src="https://cft-explaining-credit.s3.us-east-2.amazonaws.com/docs/introduction_youtube.png" width="600px">
+    <img src="http://sagemaker-solutions-us-west-2.s3.amazonaws.com/Explaining-credit-decisions/docs/introduction_youtube.png" width="600px">
   </a>
 </p>
 
@@ -18,65 +18,17 @@ Given a set of input features used to describe a credit application (e.g. `credi
 
 <p align="center">
   <a href="http://sagemaker-solutions-us-west-2.s3-website-us-west-2.amazonaws.com/Explaining-credit-decisions/docs/example_report.html">
-    <img src="https://cft-explaining-credit.s3.us-east-2.amazonaws.com/docs/explanations.png" width="750px">
+    <img src="http://sagemaker-solutions-us-west-2.s3.amazonaws.com/Explaining-credit-decisions/docs/explanations.png" width="750px">
   </a>
 </p>
 
-## Requirements
-
-You will need an AWS account to use this solution. Sign up for an account [here](https://aws.amazon.com/).
-
-You will also need to have permission to use [AWS CloudFormation](https://aws.amazon.com/cloudformation/) and to create all the resources detailed in the [architecture section](#architecture). All AWS permissions can be managed through [AWS IAM](https://aws.amazon.com/iam/). Admin users will have the required permissions, but please contact your account's AWS administrator if your user account doesn't have the required permissions.
+## Getting Started
 
 <p align="center">
   <a href="https://youtu.be/Fictwb6vCRg">
-    <img src="https://cft-explaining-credit.s3.us-east-2.amazonaws.com/docs/getting_started_youtube.png" width="600px">
+    <img src="http://sagemaker-solutions-us-west-2.s3.amazonaws.com/Explaining-credit-decisions/docs/getting_started_youtube.png" width="600px">
   </a>
 </p>
-
-## Contents
-
-* `cloudformation/`
-  * `explaining-credit-decisions.yaml`: Creates AWS CloudFormation Stack for solution.
-  * `glue.yaml`: Used to create AWS Glue components.
-  * `sagemaker.yaml`: Used to create Amazon SageMaker components.
-  * `solution-assistant.yaml`: Used to prepare demonstration datasets and clean up resources.
-* `dataset/`
-  * `german.data`: Original [German Credit Dataset](http://archive.ics.uci.edu/ml/datasets/statlog%2B%28german%2Bcredit%2Bdata%29) used to create synthetic datasets.
-* `glue/`
-  * `etl_job.py`: Use by AWS Glue Job to transform datasets.
-* `lambda/`
-  * `datasets.py`: Used to generate synthetic datasets.
-  * `lambda_function.py`: Solution Assistant create and delete logic.
-  * `requirements.txt`: Describes Python package requirements of the AWS Lambda function.
-* `sagemaker/`
-  * `requirements.txt`: Describes Python package requirements of the Amazon SageMaker Notebook instance.
-  * `setup.py`: Describes Python package used in the solution.
-  * `containers/`
-    * `dashboard/`
-    * `model/`
-      * `Dockerfile`: Describes custom Docker image hosted on Amazon ECR.
-      * `requirements.txt`: Describes Python package requirements of the Docker image.
-      * `entry_point.py`: Used by Amazon SageMaker for training and endpoint hosting.
-  * `notebooks/`
-    * `notebook.ipynb`: Orchestrates the solution.
-  * `package/`
-    * `config.py`: Stores and retrieves project configuration. Optionally uses [dotenv](https://pypi.org/project/python-dotenv/).
-    * `utils.py`: Various utility functions for scripts and/or notebooks.
-    * `visuals.py`: Contains explanation visualizations.
-    * `data/`
-      * `datasets.py`: Contains functions for reading datasets.
-      * `glue.py`: Manages the AWS Glue workflow of crawling datasets and running jobs.
-      * `schemas.py`: Schema creation and data validation.
-    * `machine_learning/`
-      * `preprocessing.py`: Scikit-learn steps to pre-process data for model.
-      * `training.py`: Scikit-learn steps to train and test model.
-    * `sagemaker/`
-      * `containers.py`: Manages the Docker workflow of building and pushing images to Amazon ECR.
-      * `estimator_fns.py`: Contains functions used by estimator.
-      * `explainer_fns.py`: Contains functions used by explainer.
-      * `predictor_fns.py`: Contains functions used by predictor.
-      * `predictors.py`: Custom predictor for using JSON endpoint from notebook.
 
 ## Architecture
 
@@ -91,7 +43,7 @@ As part of the solution, the following services are used:
 * [Amazon SageMaker Batch Transform](https://aws.amazon.com/sagemaker/): Used to compute explanations in batch.
 
 <p align="center">
-  <img src="https://cft-explaining-credit.s3.us-east-2.amazonaws.com/docs/architecture_diagrams/complete.png" width="800px">
+  <img src="http://sagemaker-solutions-us-west-2.s3.amazonaws.com/Explaining-credit-decisions/docs/architecture_diagrams/complete.png" width="800px">
 </p>
 
 ## Costs
@@ -122,7 +74,7 @@ custom name), and extra Amazon ECR repositories.
 
 <p align="center">
   <a href="https://youtu.be/oP_gVFPzNAE">
-    <img src="https://cft-explaining-credit.s3.us-east-2.amazonaws.com/docs/cleaning_up_youtube.png" width="600px">
+    <img src="http://sagemaker-solutions-us-west-2.s3.amazonaws.com/Explaining-credit-decisions/docs/cleaning_up_youtube.png" width="600px">
   </a>
 </p>
 
