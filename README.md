@@ -4,7 +4,7 @@ Given the increasing complexity of machine learning models, the need for model e
 
 <p align="center">
   <a href="https://youtu.be/fGafEouuc1Q">
-    <img src="docs/introduction_youtube.png" width="600px">
+    <img src="https://cft-explaining-credit.s3.us-east-2.amazonaws.com/docs/introduction_youtube.png" width="600px">
   </a>
 </p>
 
@@ -18,7 +18,7 @@ Given a set of input features used to describe a credit application (e.g. `credi
 
 <p align="center">
   <a href="http://sagemaker-solutions-us-west-2.s3-website-us-west-2.amazonaws.com/Explaining-credit-decisions/docs/example_report.html">
-    <img src="docs/explanations.png" width="750px">
+    <img src="https://cft-explaining-credit.s3.us-east-2.amazonaws.com/docs/explanations.png" width="750px">
   </a>
 </p>
 
@@ -28,34 +28,9 @@ You will need an AWS account to use this solution. Sign up for an account [here]
 
 You will also need to have permission to use [AWS CloudFormation](https://aws.amazon.com/cloudformation/) and to create all the resources detailed in the [architecture section](#architecture). All AWS permissions can be managed through [AWS IAM](https://aws.amazon.com/iam/). Admin users will have the required permissions, but please contact your account's AWS administrator if your user account doesn't have the required permissions.
 
-## Getting Started
-
-Click on one of the following buttons to *quick create* the AWS CloudFormation Stack:
-
-<table>
-  <tr>
-    <th colspan="3">AWS Region</td>
-    <th>AWS CloudFormation</td>
-  </tr>
-  <tr>
-    <td>US West</td>
-    <td>Oregon</td>
-    <td>us-west-2</td>
-    <td align="center">
-      <a href="https://us-west-2.console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/create/review?templateURL=https://sagemaker-solutions-us-west-2.s3-us-west-2.amazonaws.com/Explaining-credit-decisions/build/packaged.yaml&stackName=explaining-credit-decisions">
-        <img src="docs/launch_button.svg" height="30">
-      </a>
-    </td>
-  </tr>
-</table>
-
-You should acknowledge the use of the two capabilities and click 'Create Stack'. Once stack creation has completed successfully, click the 'SageMakerNotebookInstanceSignOn' link on the 'Outputs' tab. Click 'notebook.ipynb' and follow the instruction inside the notebook.
-
-**Caution**: Cloning this GitHub repository and running the code manually could lead to unexpected issues! Use the AWS CloudFormation template. You'll get an Amazon SageMaker Notebook instance that's been correctly setup and configured to access the other resources in the solution.
-
 <p align="center">
   <a href="https://youtu.be/Fictwb6vCRg">
-    <img src="docs/getting_started_youtube.png" width="600px">
+    <img src="https://cft-explaining-credit.s3.us-east-2.amazonaws.com/docs/getting_started_youtube.png" width="600px">
   </a>
 </p>
 
@@ -116,7 +91,7 @@ As part of the solution, the following services are used:
 * [Amazon SageMaker Batch Transform](https://aws.amazon.com/sagemaker/): Used to compute explanations in batch.
 
 <p align="center">
-  <img src="docs/architecture_diagrams/complete.png" width="800px">
+  <img src="https://cft-explaining-credit.s3.us-east-2.amazonaws.com/docs/architecture_diagrams/complete.png" width="800px">
 </p>
 
 ## Costs
@@ -147,7 +122,7 @@ custom name), and extra Amazon ECR repositories.
 
 <p align="center">
   <a href="https://youtu.be/oP_gVFPzNAE">
-    <img src="docs/cleaning_up_youtube.png" width="600px">
+    <img src="https://cft-explaining-credit.s3.us-east-2.amazonaws.com/docs/cleaning_up_youtube.png" width="600px">
   </a>
 </p>
 
