@@ -4,7 +4,7 @@ Given the increasing complexity of machine learning models, the need for model e
 
 <p align="center">
   <a href="https://youtu.be/fGafEouuc1Q">
-    <img src="http://sagemaker-solutions-us-west-2.s3.amazonaws.com/Explaining-credit-decisions/docs/introduction_youtube.png" width="600px">
+    <img src="http://sagemaker-solutions-us-west-2.s3.amazonaws.com/Explaining-credit-decisions/docs/introduction_youtube.png" width="90%">
   </a>
 </p>
 
@@ -18,7 +18,7 @@ Given a set of input features used to describe a credit application (e.g. `credi
 
 <p align="center">
   <a href="http://sagemaker-solutions-us-west-2.s3-website-us-west-2.amazonaws.com/Explaining-credit-decisions/docs/example_report.html">
-    <img src="http://sagemaker-solutions-us-west-2.s3.amazonaws.com/Explaining-credit-decisions/docs/explanations.png" width="750px">
+    <img src="http://sagemaker-solutions-us-west-2.s3.amazonaws.com/Explaining-credit-decisions/docs/explanations.png" width="100%">
   </a>
 </p>
 
@@ -26,7 +26,7 @@ Given a set of input features used to describe a credit application (e.g. `credi
 
 <p align="center">
   <a href="https://youtu.be/Fictwb6vCRg">
-    <img src="http://sagemaker-solutions-us-west-2.s3.amazonaws.com/Explaining-credit-decisions/docs/getting_started_youtube.png" width="600px">
+    <img src="http://sagemaker-solutions-us-west-2.s3.amazonaws.com/Explaining-credit-decisions/docs/getting_started_youtube.png" width="90%">
   </a>
 </p>
 
@@ -43,7 +43,7 @@ As part of the solution, the following services are used:
 * [Amazon SageMaker Batch Transform](https://aws.amazon.com/sagemaker/): Used to compute explanations in batch.
 
 <p align="center">
-  <img src="http://sagemaker-solutions-us-west-2.s3.amazonaws.com/Explaining-credit-decisions/docs/architecture_diagrams/complete.png" width="800px">
+  <img src="http://sagemaker-solutions-us-west-2.s3.amazonaws.com/Explaining-credit-decisions/docs/architecture_diagrams/complete.png" width="100%">
 </p>
 
 ## Costs
@@ -74,7 +74,7 @@ custom name), and extra Amazon ECR repositories.
 
 <p align="center">
   <a href="https://youtu.be/oP_gVFPzNAE">
-    <img src="http://sagemaker-solutions-us-west-2.s3.amazonaws.com/Explaining-credit-decisions/docs/cleaning_up_youtube.png" width="600px">
+    <img src="http://sagemaker-solutions-us-west-2.s3.amazonaws.com/Explaining-credit-decisions/docs/cleaning_up_youtube.png" width="90%">
   </a>
 </p>
 
