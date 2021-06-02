@@ -38,7 +38,7 @@ six==1.14.0               # via docker, jsonschema, packaging, protobuf, protobu
 smdebug-rulesconfig==0.1.2  # via sagemaker
 tornado==5.1.1            # via bokeh
 typing-extensions==3.7.4.2  # via bokeh
-urllib3==1.25.9           # via botocore, requests
+urllib3==1.26.5           # via botocore, requests
 websocket-client==0.57.0  # via docker
 zipp==3.1.0               # via importlib-metadata
 
