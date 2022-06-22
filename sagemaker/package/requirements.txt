@@ -18,7 +18,7 @@ jinja2==2.11.2            # via -r requirements.in, bokeh
 jmespath==0.9.5           # via boto3, botocore
 jsonschema==3.2.0         # via -r requirements.in
 markupsafe==1.1.1         # via jinja2
-numpy==1.18.2             # via -r requirements.in, bokeh, pandas, sagemaker, scipy
+numpy==1.22.0             # via -r requirements.in, bokeh, pandas, sagemaker, scipy
 packaging==20.3           # via bokeh, sagemaker
 pandas==1.0.3             # via -r requirements.in
 pillow==7.1.1             # via bokeh
