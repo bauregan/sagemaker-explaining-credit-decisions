@@ -8,7 +8,7 @@ attrs==19.3.0             # via jsonschema
 bokeh==2.0.1              # via -r requirements.in
 boto3==1.12.41            # via -r requirements.in, sagemaker
 botocore==1.15.41         # via boto3, s3transfer
-certifi==2020.4.5.1       # via requests
+certifi==2022.12.7       # via requests
 chardet==3.0.4            # via requests
 docker==4.2.0             # via -r requirements.in
 docutils==0.15.2          # via botocore
